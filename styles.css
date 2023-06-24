@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    height: 60px;
+  }
+  
+  .sticky-nav {
+    position: fixed;
+    top: 0;
+    background-color: #333;
+  }
+  
+  .sticky-nav ul {
+    list-style-type: none;
+    margin-left: 1380px;
+    padding:0;
+    overflow: hidden;
+  }
+  
+  .sticky-nav li {
+    float: left;
+  }
+  
+  .sticky-nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding-right: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sticky-nav li a:hover {
+    background-color: #555;
+  }
+  
+  section {
+    height: 800px;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  /* Additional styles for smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  section[id] {
+    scroll-margin-top: 60px;
+  }
+  #books{
+    height: 800px;
+    width: 800px;
+    background-color: beige;
+    border:5px solid #555;
+  }
+  table,th,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 20px;
+  }
+  th,td{
+    background-color: rgb(52, 177, 226);
+  }
+  .table{
+    height:300px;
+    width:700px;
+  }
+  th{
+    padding: 20px;
+    text-align: left;
+  }
+  .title{
+    padding: 20px;
+  }
+  #register{
+    margin-top: 60px;
+    height: 600px;
+    width: 800px;
+    background-color: lightpink;
+    border:5px solid #555;
+    margin-bottom: 60px;
+  }
+label{
+    margin-top:50px;
+}
+input{
+    margin-top:15px;
+
+}
+td:hover{
+    background-color: white;
+    color:red
+}
+input:not(:placeholder-shown) {
+  background-color: lightblue; /* Change this to the desired color */
+}
+td:not(.title) {
+    text-align: center; /* Change this to the desired color */
+}
